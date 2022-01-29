@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "public": "dist/FortBridgerContract",
+    "public": "dist/fort-bridger-contract",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]    
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }

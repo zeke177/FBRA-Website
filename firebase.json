@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/fort-bridger-contract-development",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
